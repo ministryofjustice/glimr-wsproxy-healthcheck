@@ -1,0 +1,6 @@
+version: '2'
+services:
+  wsproxy-healthcheck:
+    build: .
+    ports:
+      - "9292:9292"
