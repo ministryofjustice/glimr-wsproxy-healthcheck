@@ -16,12 +16,14 @@ http://<host>:<port>/healthcheck.json
 it will return:
 
 ```
+Status: 200
 {"service_status":"ok","dependencies":{"glimr_status":"ok"}}
 ```
 
 for success and:
 
 ```
+Status: 502
 {"service_status":"failed","dependencies":{"glimr_status":"failed"}}
 ```
 
