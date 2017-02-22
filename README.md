@@ -9,15 +9,21 @@ to access GLiMR instances within secure environments.
 
 When called on
 
-```http://<host>:<port>/healthcheck.json```
+```
+http://<host>:<port>/healthcheck.json
+```
 
 it will return:
 
-```{"service_status":"ok","dependencies":{"glimr_status":"ok"}}```
+```
+{"service_status":"ok","dependencies":{"glimr_status":"ok"}}
+```
 
 for success and:
 
-```{"service_status":"failed","dependencies":{"glimr_status":"failed"}}```
+```
+{"service_status":"failed","dependencies":{"glimr_status":"failed"}}
+```
 
 if GLiMR cannot be reached.
 
