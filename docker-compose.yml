@@ -2,5 +2,6 @@ version: '2'
 services:
   wsproxy-healthcheck:
     build: .
+    env_file: .env
     ports:
       - "9292:9292"
