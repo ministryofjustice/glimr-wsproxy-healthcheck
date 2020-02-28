@@ -9,7 +9,7 @@ GEM
     glimr-api-client (0.3.2)
       typhoeus (~> 1.1.2)
     mustermann (1.0.2)
-    puma (3.11.4)
+    puma (3.12.3)
     rack (2.0.6)
     rack-protection (2.0.3)
       rack
